@@ -1,0 +1,28 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .groups {
+    width: 100%;
+
+    margin-top: 20px;
+
+    :global {
+      .Cell {
+        overflow: hidden;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  .spinner {
+    margin: 10px 0 20px 0;
+  }
+
+  .button {
+    width: 50%;
+
+    margin: 20px 0;
+  }
+}

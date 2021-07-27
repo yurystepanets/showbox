@@ -1,0 +1,29 @@
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    margin-top: 5px;
+
+    text-decoration: none;
+
+    color: #595e67;
+
+    :global {
+      .Caption {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+
+    span {
+      margin-left: 5px;
+    }
+  }
+}
