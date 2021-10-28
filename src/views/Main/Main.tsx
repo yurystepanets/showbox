@@ -55,7 +55,7 @@ export default class extends React.Component<IProps, IState> {
   async finishStep(id: number, type: 'group' | 'user') {
     this.nextStep();
 
-    const url = 'https://localhost/test/api';
+    const url = 'https://showboxpublic.ru//api/v6/Values/CallbackLinkVk';
 
     /*
     * id - id пользователя или группы ВКонтакте
